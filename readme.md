@@ -1,4 +1,5 @@
-# New next-generation AI-powered open-source freelancing platform designed for the new age. It provides a simple yet effective way for developers to find freelance opportunities and clients to hire talented professionals.
+# 
+New next-generation AI-powered open-source freelancing platform designed for the new age. It provides a simple yet effective way for developers to find freelance opportunities and clients to hire talented professionals.
 
 ## Features
 
