@@ -21,7 +21,7 @@ export default function RouteGuard({ children }) {
   if (!user) {
     return (
       <section className="flex justify-center items-center w-full min-h-screen">
-      <Toaster />
+        <Toaster />
         <svg
           className="animate-spin h-8 w-8 text-orange-700 mr-2"
           xmlns="http://www.w3.org/2000/svg"
