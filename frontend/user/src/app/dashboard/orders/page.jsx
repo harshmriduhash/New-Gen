@@ -176,14 +176,18 @@ export default function Page() {
                       <div className="flex items-center gap-2">
                         <Avatar className="w-8 h-8">
                           <AvatarImage alt="Client" src={order.clientImage} />
-                          <AvatarFallback>{order.clientInitials}</AvatarFallback>
+                          <AvatarFallback>
+                            {order.clientInitials}
+                          </AvatarFallback>
                         </Avatar>
                         <span>{order.clientName}</span>
                       </div>
                     </TableCell>
                     <TableCell>
                       <div className="flex flex-col">
-                        <span className="font-medium">{order.projectTitle}</span>
+                        <span className="font-medium">
+                          {order.projectTitle}
+                        </span>
                         <span className="text-sm text-gray-500 dark:text-gray-400">
                           {order.projectDescription}
                         </span>
@@ -212,7 +216,12 @@ export default function Page() {
                         </DropdownMenuTrigger>
                         <DropdownMenuContent align="end">
                           <DropdownMenuItem>
-                            <Link href={`/dashboard/orders/${order.id}`} className="w-full h-full">View Order</Link>
+                            <Link
+                              href={`/dashboard/orders/${order.id}`}
+                              className="w-full h-full"
+                            >
+                              View Order
+                            </Link>
                           </DropdownMenuItem>
                           <DropdownMenuItem>Leave Feedback</DropdownMenuItem>
                           <DropdownMenuItem>Contact Client</DropdownMenuItem>
