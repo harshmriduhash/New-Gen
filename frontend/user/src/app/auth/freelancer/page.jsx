@@ -61,7 +61,7 @@ export default function page() {
                 href="/terms-and-conditions"
                 className="underline underline-offset-4 hover:text-primary"
               >
-                Terms of Service
+                Terms of Services
               </Link>{" "}
               and{" "}
               <Link
