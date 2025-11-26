@@ -27,7 +27,7 @@ export default function page() {
                             <p className="text-lg">
                                 &ldquo;Embrace the journey of wellness with each choice you make; every step, every meal, every breath is a testament to your commitment to a vibrant, healthier you.&rdquo;
                             </p>
-                            <footer className="text-sm">Sofia Davis</footer>
+                            <footer className="text-sm">harsh</footer>
                         </blockquote>
                     </div>
                 </div>
