@@ -86,7 +86,9 @@ function Verify() {
       ) : (
         <div className="text-center w-full">
           {verificationStatus === "success" ? (
-            <h1 className="md:text-4xl font-bold text-green-500">✅ Email verified successfully!</h1>
+            <h1 className="md:text-4xl font-bold text-green-500">
+              ✅ Email verified successfully!
+            </h1>
           ) : verificationStatus === "error" ? (
             <h1 className="md:text-4xl font-bold text-red-500">
               🔴 Failed to verify email. Please try again.
