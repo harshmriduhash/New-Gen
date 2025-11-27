@@ -8,77 +8,78 @@ import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { Badge } from "@/components/ui/badge";
 
 const workspaces = [
-    {
-      id: 1,
-      name: "Alice",
-      description: "JavaScript Developer for multiple PDF Merging and Sizing Project",
-      avatar: "https://github.com/shadcn.png",
-      badgeCount: 12,
-    },
-    {
-      id: 2,
-      name: "Bob",
-      description: "React Developer for e-commerce application",
-      avatar: "https://via.placeholder.com/150",
-      badgeCount: 8,
-    },
-    {
-      id: 3,
-      name: "Charlie",
-      description: "Full Stack Developer for healthcare platform",
-      avatar: "https://via.placeholder.com/150",
-      badgeCount: 5,
-    },
-    {
-      id: 4,
-      name: "David",
-      description: "Backend Developer for financial services",
-      avatar: "https://via.placeholder.com/150",
-      badgeCount: 3,
-    },
-    {
-      id: 5,
-      name: "Eva",
-      description: "UI/UX Designer for mobile app project",
-      avatar: "https://via.placeholder.com/150",
-      badgeCount: 10,
-    },
-    {
-      id: 6,
-      name: "Frank",
-      description: "DevOps Engineer for cloud infrastructure setup",
-      avatar: "https://via.placeholder.com/150",
-      badgeCount: 6,
-    },
-    {
-      id: 7,
-      name: "Grace",
-      description: "Project Manager for agile teams",
-      avatar: "https://via.placeholder.com/150",
-      badgeCount: 9,
-    },
-    {
-      id: 8,
-      name: "Hank",
-      description: "Data Scientist for predictive analytics",
-      avatar: "https://via.placeholder.com/150",
-      badgeCount: 4,
-    },
-    {
-      id: 9,
-      name: "Ivy",
-      description: "Marketing Specialist for social media campaigns",
-      avatar: "https://via.placeholder.com/150",
-      badgeCount: 11,
-    },
-    {
-      id: 10,
-      name: "Jack",
-      description: "Quality Assurance Engineer for software testing",
-      avatar: "https://via.placeholder.com/150",
-      badgeCount: 7,
-    },
-  ];
+  {
+    id: 1,
+    name: "Alice",
+    description:
+      "JavaScript Developer for multiple PDF Merging and Sizing Project",
+    avatar: "https://github.com/shadcn.png",
+    badgeCount: 12,
+  },
+  {
+    id: 2,
+    name: "Bob",
+    description: "React Developer for e-commerce application",
+    avatar: "https://via.placeholder.com/150",
+    badgeCount: 8,
+  },
+  {
+    id: 3,
+    name: "Charlie",
+    description: "Full Stack Developer for healthcare platform",
+    avatar: "https://via.placeholder.com/150",
+    badgeCount: 5,
+  },
+  {
+    id: 4,
+    name: "David",
+    description: "Backend Developer for financial services",
+    avatar: "https://via.placeholder.com/150",
+    badgeCount: 3,
+  },
+  {
+    id: 5,
+    name: "Eva",
+    description: "UI/UX Designer for mobile app project",
+    avatar: "https://via.placeholder.com/150",
+    badgeCount: 10,
+  },
+  {
+    id: 6,
+    name: "Frank",
+    description: "DevOps Engineer for cloud infrastructure setup",
+    avatar: "https://via.placeholder.com/150",
+    badgeCount: 6,
+  },
+  {
+    id: 7,
+    name: "Grace",
+    description: "Project Manager for agile teams",
+    avatar: "https://via.placeholder.com/150",
+    badgeCount: 9,
+  },
+  {
+    id: 8,
+    name: "Hank",
+    description: "Data Scientist for predictive analytics",
+    avatar: "https://via.placeholder.com/150",
+    badgeCount: 4,
+  },
+  {
+    id: 9,
+    name: "Ivy",
+    description: "Marketing Specialist for social media campaigns",
+    avatar: "https://via.placeholder.com/150",
+    badgeCount: 11,
+  },
+  {
+    id: 10,
+    name: "Jack",
+    description: "Quality Assurance Engineer for software testing",
+    avatar: "https://via.placeholder.com/150",
+    badgeCount: 7,
+  },
+];
 
 export default function WorkspaceLayout({ children }) {
   return (
