@@ -105,12 +105,8 @@ export default function page() {
                     <SelectValue placeholder="Select project Type" />
                   </SelectTrigger>
                   <SelectContent>
-                    <SelectItem value="hourly">
-                      Hourly
-                    </SelectItem>
-                    <SelectItem value="fixed">
-                      Fixed
-                    </SelectItem>
+                    <SelectItem value="hourly">Hourly</SelectItem>
+                    <SelectItem value="fixed">Fixed</SelectItem>
                   </SelectContent>
                 </Select>
               </div>
