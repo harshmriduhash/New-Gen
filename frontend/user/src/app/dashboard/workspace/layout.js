@@ -46,7 +46,7 @@ const workspaces = [
   },
   {
     id: 6,
-    name: "Frank",
+    name: "Frank J Underwood",
     description: "DevOps Engineer for cloud infrastructure setup",
     avatar: "https://via.placeholder.com/150",
     badgeCount: 6,
