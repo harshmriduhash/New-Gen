@@ -18,7 +18,7 @@ const workspaces = [
   },
   {
     id: 2,
-    name: "Bob",
+    name: "Bob the builder",
     description: "React Developer for e-commerce applications",
     avatar: "https://via.placeholder.com/150",
     badgeCount: 8,
