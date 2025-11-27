@@ -12,7 +12,7 @@ const workspaces = [
     id: 1,
     name: "Alice",
     description:
-      "JavaScript Developer for multiple PDF Merging and Sizing Project",
+      "JavaScript Developer for multiple PDF Merging and Sizing Projects",
     avatar: "https://github.com/shadcn.png",
     badgeCount: 12,
   },
