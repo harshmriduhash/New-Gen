@@ -32,7 +32,7 @@ const workspaces = [
   },
   {
     id: 4,
-    name: "David",
+    name: "David Goggins",
     description: "Backend Developer for financial services",
     avatar: "https://via.placeholder.com/150",
     badgeCount: 3,
