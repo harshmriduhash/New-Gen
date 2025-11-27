@@ -25,7 +25,7 @@ const workspaces = [
   },
   {
     id: 3,
-    name: "Charlie",
+    name: "Charlie Munger",
     description: "Full Stack Developer for healthcare platform",
     avatar: "https://via.placeholder.com/150",
     badgeCount: 5,
