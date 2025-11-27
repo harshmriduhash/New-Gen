@@ -40,7 +40,7 @@ const workspaces = [
   {
     id: 5,
     name: "Eva",
-    description: "UI/UX Designer for mobile app project",
+    description: "UI/UX Designer for mobile app projects",
     avatar: "https://via.placeholder.com/150",
     badgeCount: 10,
   },
