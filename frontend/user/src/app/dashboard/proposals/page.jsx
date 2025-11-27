@@ -75,63 +75,67 @@ const statusVariant = {
 };
 
 const proposals = [
-    {
-      id: 1,
-      projectTitle: "Website Redesign",
-      projectDescription: "Redesigning the client's existing website for a more modern look and improved user experience.",
-      projectStatus: "Ongoing",
-      proposalStatus: "Accepted",
-      submittedAt: "2023-05-01",
-      budget: "$1500",
-      clientName: "John Doe",
-      clientImage: "https://placehold.co/500x500"
-    },
-    {
-      id: 2,
-      projectTitle: "E-commerce Platform Development",
-      projectDescription: "Building a comprehensive e-commerce platform with payment integration and user management.",
-      projectStatus: "Completed",
-      proposalStatus: "Rejected",
-      submittedAt: "2023-04-20",
-      budget: "$3000",
-      clientName: "Jane Smith",
-      clientImage: "https://placehold.co/500x500"
-    },
-    {
-      id: 3,
-      projectTitle: "Mobile App for Fitness Tracking",
-      projectDescription: "Developing a cross-platform mobile application for tracking workouts and nutrition.",
-      projectStatus: "Ongoing",
-      proposalStatus: "Under Review",
-      submittedAt: "2023-05-10",
-      budget: "$2000",
-      clientName: "Mike Johnson",
-      clientImage: "https://placehold.co/500x500"
-    },
-    {
-      id: 4,
-      projectTitle: "SEO Optimization for Online Store",
-      projectDescription: "Optimizing the client's online store to improve search engine rankings and drive more traffic.",
-      projectStatus: "Pending",
-      proposalStatus: "Pending",
-      submittedAt: "2023-05-15",
-      budget: "$800",
-      clientName: "Emily Davis",
-      clientImage: "https://placehold.co/500x500"
-    },
-    {
-      id: 5,
-      projectTitle: "Social Media Marketing Campaign",
-      projectDescription: "Creating and managing a social media marketing campaign to increase brand awareness and engagement.",
-      projectStatus: "Completed",
-      proposalStatus: "Accepted",
-      submittedAt: "2023-04-30",
-      budget: "$1200",
-      clientName: "David Lee",
-      clientImage: "https://placehold.co/500x500"
-    },
-  ];
-  
+  {
+    id: 1,
+    projectTitle: "Website Redesign",
+    projectDescription:
+      "Redesigning the client's existing website for a more modern look and improved user experience.",
+    projectStatus: "Ongoing",
+    proposalStatus: "Accepted",
+    submittedAt: "2023-05-01",
+    budget: "$1500",
+    clientName: "John Doe",
+    clientImage: "https://placehold.co/500x500",
+  },
+  {
+    id: 2,
+    projectTitle: "E-commerce Platform Development",
+    projectDescription:
+      "Building a comprehensive e-commerce platform with payment integration and user management.",
+    projectStatus: "Completed",
+    proposalStatus: "Rejected",
+    submittedAt: "2023-04-20",
+    budget: "$3000",
+    clientName: "Jane Smith",
+    clientImage: "https://placehold.co/500x500",
+  },
+  {
+    id: 3,
+    projectTitle: "Mobile App for Fitness Tracking",
+    projectDescription:
+      "Developing a cross-platform mobile application for tracking workouts and nutrition.",
+    projectStatus: "Ongoing",
+    proposalStatus: "Under Review",
+    submittedAt: "2023-05-10",
+    budget: "$2000",
+    clientName: "Mike Johnson",
+    clientImage: "https://placehold.co/500x500",
+  },
+  {
+    id: 4,
+    projectTitle: "SEO Optimization for Online Store",
+    projectDescription:
+      "Optimizing the client's online store to improve search engine rankings and drive more traffic.",
+    projectStatus: "Pending",
+    proposalStatus: "Pending",
+    submittedAt: "2023-05-15",
+    budget: "$800",
+    clientName: "Emily Davis",
+    clientImage: "https://placehold.co/500x500",
+  },
+  {
+    id: 5,
+    projectTitle: "Social Media Marketing Campaign",
+    projectDescription:
+      "Creating and managing a social media marketing campaign to increase brand awareness and engagement.",
+    projectStatus: "Completed",
+    proposalStatus: "Accepted",
+    submittedAt: "2023-04-30",
+    budget: "$1200",
+    clientName: "David Lee",
+    clientImage: "https://placehold.co/500x500",
+  },
+];
 
 export default function page() {
   return (
@@ -229,17 +233,16 @@ export default function page() {
                 {proposals.map((proposal) => (
                   <TableRow key={proposal.id}>
                     <TableCell>
-                      <span className="font-medium">
-                        #{proposal.id}
-                      </span>
+                      <span className="font-medium">#{proposal.id}</span>
                     </TableCell>
                     <TableCell>
                       <div className="flex items-center gap-2">
                         <Avatar className="w-8 h-8">
-                          <AvatarImage alt="Client" src={proposal.clientImage} />
-                          <AvatarFallback>
-                            N/A
-                          </AvatarFallback>
+                          <AvatarImage
+                            alt="Client"
+                            src={proposal.clientImage}
+                          />
+                          <AvatarFallback>N/A</AvatarFallback>
                         </Avatar>
                         <span>{proposal.clientName}</span>
                       </div>
@@ -271,7 +274,9 @@ export default function page() {
                     </TableCell>
                     <TableCell>
                       <div className="flex flex-col whitespace-nowrap">
-                        <span className="font-medium">{proposal.submittedAt}</span>
+                        <span className="font-medium">
+                          {proposal.submittedAt}
+                        </span>
                       </div>
                     </TableCell>
                     <TableCell className="text-right">
