@@ -74,7 +74,7 @@ const workspaces = [
   },
   {
     id: 10,
-    name: "Jack",
+    name: "Jack Reacher",
     description: "Quality Assurance Engineer for software testing",
     avatar: "https://via.placeholder.com/150",
     badgeCount: 7,
