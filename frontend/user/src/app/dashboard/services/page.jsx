@@ -18,7 +18,7 @@ const services = [
     title: "Web Development",
     description:
       "Building robust and scalable web applications with cutting-edge technologies, akin to carefully planning mid-game strategies.",
-    timeAgo: "5min ago",
+    timeAgo: "7min ago",
     sold: 8,
     rating: 4.6,
   },
