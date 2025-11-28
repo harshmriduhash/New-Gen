@@ -99,7 +99,8 @@ export default function Navbar() {
                     <Avatar className="w-10 h-10 rounded-full cursor-pointer backdrop-blur-3xl hover:bg-[rgba(0,0,0,0.04)] flex justify-center items-center">
                       <AvatarImage
                         src={
-                          userData?.profilePicture || `https://www.aapda.in/male.png`
+                          userData?.profilePicture ||
+                          `https://www.aapda.in/male.png`
                         }
                         alt="@N/A"
                       />
