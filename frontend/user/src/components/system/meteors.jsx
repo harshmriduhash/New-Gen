@@ -2,10 +2,7 @@ import React from "react";
 import clsx from "clsx";
 import { cn } from "@/lib/utils";
 
-export const Meteors = ({
-  number,
-  className,
-}) => {
+export const Meteors = ({ number, className }) => {
   const meteors = new Array(number || 20).fill(true);
   return (
     <>
