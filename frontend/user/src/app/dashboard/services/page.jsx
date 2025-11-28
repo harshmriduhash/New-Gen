@@ -9,7 +9,7 @@ const services = [
     title: "Web Design",
     description:
       "Crafting visually stunning and user-friendly websites tailored to your brand, like strategic opening moves on the digital chessboard.",
-    timeAgo: "3min ago",
+    timeAgo: "5min ago",
     sold: 12,
     rating: 4.7,
   },
