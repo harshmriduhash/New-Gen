@@ -36,7 +36,7 @@ const services = [
     title: "SEO Optimization",
     description:
       "Strategically positioning your website to dominate search engine results, playing the long game with calculated precision.",
-    timeAgo: "20min ago",
+    timeAgo: "15min ago",
     sold: 20,
     rating: 4.9,
   },
