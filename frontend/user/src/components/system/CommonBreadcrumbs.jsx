@@ -20,20 +20,20 @@ export default function CommonBreadcrumbs() {
 
   return (
     <Breadcrumb className="md:block hidden">
-    <BreadcrumbList>
-      {pathNames.map((path, index) => (
-        <React.Fragment key={index}>
-          <BreadcrumbItem>
-            <BreadcrumbLink asChild>
-              <Link href={constructPath(index)} className="capitalize">{path}</Link>
-            </BreadcrumbLink>
-          </BreadcrumbItem>
-          {index < pathNames.length - 1 && (
-            <BreadcrumbSeparator />
-          )}
-        </React.Fragment>
-      ))}
-    </BreadcrumbList>
-  </Breadcrumb>
+      <BreadcrumbList>
+        {pathNames.map((path, index) => (
+          <React.Fragment key={index}>
+            <BreadcrumbItem>
+              <BreadcrumbLink asChild>
+                <Link href={constructPath(index)} className="capitalize">
+                  {path}
+                </Link>
+              </BreadcrumbLink>
+            </BreadcrumbItem>
+            {index < pathNames.length - 1 && <BreadcrumbSeparator />}
+          </React.Fragment>
+        ))}
+      </BreadcrumbList>
+    </Breadcrumb>
   );
 }
